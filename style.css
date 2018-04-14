@@ -6,37 +6,162 @@ body {
 
 a {
     text-decoration: none;
-    color:#969196;
+    color: #969196;
 }
 
 h1 {
     text-align: center;
+    font-size: 5.2vw;
 }
 
-table{
+table {
     text-align: center;
     font-weight: bold;
 }
 
-p{
-    text-indent: 20px;
+p {
+    text-indent: 1.6em;
+    font-size: 1em;
 }
 
-h3{
-    background-color: #969196;
+h3 {
+    background-color: rgb(195, 176, 145);
     color: white;
-    line-height: 30px;
-    padding-left:10px;
+    line-height: 2.4em;
+    padding-left: 0.8em;
+    font-size: 1.4em;
 }
 
 .dt {
     text-align: center;
 }
 
+div {
+    position: relative;
+    animation: myfirst 5s;
+    -webkit-animation: myfirst 5s;
+    transition: width 5s, height 5s, transform 5s;
+    -webkit-transition: width 5s, height 5s, -webkit-transform 5s;
+}
+
+@keyframes myfirst {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+    75% {
+        left: 200x;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+​
+
+img {
+    max-width: 100%;
+}
+
 .container {
-    width: 800px;
+    width: 65%;
     margin: 0 auto;
-    padding: 10px 20px;
+    padding: 0.8em 1.6em;
     margin-top: 0;
     background-image: url("c.jpg")
+}
+
+.biao {
+    text-align: right;
+    position: fixed;
+    top: 120px;
+    right: 220px;
+}
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    .container {
+        width: 65%;
+        margin: 0 auto;
+        padding: 0.8em 1.6em;
+    }
+    .biao {
+        text-align: right;
+    }
+    .dt {
+        text-align: center;
+        float: initial;
+    }
+    img {
+        max-width: 100%;
+    }
+    div {
+        transition: width 2s, height 2s, transform 2s;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    }
+    p {
+        text-indent: 1.6em;
+        font-size: 0.9em;
+    }
+    li {
+        font-size: 0.9em;
+    }
+    
+    h3 {
+        background-color: rgb(195, 176, 145);
+        color: white;
+        line-height: 2.2em;
+        padding-left: 0.8em;
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 80%;
+        margin: 0 auto;
+        padding: 0.8em 1.6em;
+    }
+    .biao {
+        text-align: right;
+        width: auto;
+    }
+    .dt {
+        text-align: center;
+        float: initial;
+    }
+    img {
+        max-width: 100%;
+    }
+    div {
+        transition: width 2s, height 2s, transform 2s;
+        -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    }
+    p {
+        text-indent: 1.6em;
+        font-size: 0.7em;
+    }
+    li {
+        font-size: 0.7em;
+    }
+    h4{
+        font-size: 0.8em;
+    }
+    h3 {
+        background-color:  rgb(195, 176, 145);
+        color: white;
+        line-height: 2em;
+        padding-left: 0.8em;
+        font-size: 0.95em;
+    }
+    
 }
