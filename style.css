@@ -6,7 +6,7 @@ body {
 
 a {
     text-decoration: none;
-    color: #969196;
+    color: #3a97d4;
 }
 
 h1 {
@@ -25,8 +25,8 @@ p {
 }
 
 h3 {
-    background-color: rgb(195, 176, 145);
-    color: white;
+    background-color:  rgb(117, 216, 199);
+    color: black;
     line-height: 2.4em;
     padding-left: 0.8em;
     font-size: 1.4em;
@@ -78,7 +78,7 @@ img {
     margin: 0 auto;
     padding: 0.8em 1.6em;
     margin-top: 0;
-    background-image: url("c.jpg")
+    background-image: url("cc.jpg");
 }
 
 .biao {
@@ -117,8 +117,8 @@ img {
     }
     
     h3 {
-        background-color: rgb(195, 176, 145);
-        color: white;
+        background-color:  rgb(117, 216, 199);
+        color: black;
         line-height: 2.2em;
         padding-left: 0.8em;
         font-size: 1.2em;
@@ -157,8 +157,8 @@ img {
         font-size: 0.8em;
     }
     h3 {
-        background-color:  rgb(195, 176, 145);
-        color: white;
+        background-color:  rgb(117, 216, 199);
+        color: black;
         line-height: 2em;
         padding-left: 0.8em;
         font-size: 0.95em;
